@@ -1,0 +1,39 @@
+﻿body {
+    background-color: white;
+    overflow-x:hidden;
+}
+
+img {
+    text-align:center;
+    margin-left:550px;
+    margin-top:20px;
+    width:350px;
+    height:250px;
+}
+
+.navbar {
+    background-color:green;
+    border-style:solid;
+    border-radius:0px;
+    min-height:300px;
+}
+
+.navbar .navbar-brand {
+     font-family: 'Bauhaus 93';
+     font-size: x-large;
+     color: yellowgreen;
+ }
+
+.navbar .nav > li {
+     font-family: 'Bauhaus 93';
+     font-size: x-large;
+     color: ivory;
+}
+
+footer {
+    color:black;
+    font-family:Cambria;
+    font-size:x-large;
+    margin-left:-190px;
+    margin-top:250px;
+}

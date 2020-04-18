@@ -1,62 +1,41 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="FruitsAndVegApp.Site" %>
-<!DOCTYPE html>
-<html>
+﻿<%@Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="FruitsAndVegApp.Site" %>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />    
 <head>
-    <link rel="stylesheet" href="Content/css/bootstrap.css" type="text/css" />
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title></title>
+    <link rel="stylesheet" href="Content/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="Content/css/Site.css" type="text/css" />
+    <script src="Scripts/jquery-3.4.1.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+    <title>Fruits and Veggies App</title>
   </head>
- <body>
-    <div class="navbar navbar-inverse navbar-fixed-top" style="background-color:green;border-color:none;border-width:0px; height: 281px;">
-        <div class="container">
+      <body>
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" style="font-family: 'Bauhaus 93'; font-size: x-large;border-color:none;border-width:0px;color: yellowgreen">Fruits and Veggie Shop</a>
+                <a class="navbar-brand" href="#">Fruits and Veggies Shop</a>
             </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav"">
-                    <li><a href="Default.aspx" style="font-family: 'Bauhaus 93'; font-size: x-large; color: ivory">Home</a></li>
-                    <li><a href="#" style="font-family: 'Bauhaus 93'; font-size: x-large; color: ivory">Shopping Item</a></li>
-                    <li><a href="#" style="font-family: 'Bauhaus 93'; font-size: x-large; color: ivory">Fruits</a></li>
-                    <li><a href="#" style="font-family: 'Bauhaus 93'; font-size: x-large; color: ivory">Veggies</a></li>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="#">Home <span class="sr-only">(current)</span></a></li>
+                    <li><a href="#">Shopping Items</a></li>
+                    <li><a href="#">Fruits</a></li>
+                    <li><a href="#">Veggies</a></li>
                 </ul>
             </div>
         </div>
+    </nav>
+    <div>
+        <img src="Content/images/fruitbowl.png" />
     </div>
-    <asp:ContentPlaceHolder ID="contentPlaceHolderID1" runat="server">
-        <script src="Scripts/jquery-2.2.2.min.js"></script>
-        <script src="Scripts/bootstrap.min.js"></script>
-    </asp:ContentPlaceHolder>
-     <table style="width:100%; height: 614px;">
-         <tr>
-             <td class="text-center">
-                 <br />
-                 <br />
-                 <br />
-                 <br />
-                 <br />
-                 <br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
-                 <br />
-                 <br />
-                 <br />
-                 <br />
-                 <br />
-                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="Images/fruitbowl.jpg" style="text-align:center"></td>
-             <td>&nbsp;</td>
-             <td>&nbsp;</td>
-         </tr>
-     </table>
-     <div style="font-family:Cambria;font-size:x-large">
-         <br />
-         <br />
-         <br />
-         <br />
-         © Copyright Indunil Sanjeewa Amarasinghe 2015 - 2016</div>
-</body>
-</html>
+    <div class="container body-content">
+        <footer>
+            Copyright &copy; Indunil Sanjeewa 2015 - 2016 - Fruits and Veggies Landing Page Design All rights reserved
+        </footer>
+    </div>
+    </body>
