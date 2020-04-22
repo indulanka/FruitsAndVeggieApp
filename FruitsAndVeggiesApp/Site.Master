@@ -34,8 +34,8 @@
         <img src="Content/images/fruitbowl.png" />
     </div>
     <div class="container body-content">
-        <footer>
-            Copyright &copy; Indunil Sanjeewa 2015 - 2020 Fruits and Veggies Landing Page Design All rights reserved
-        </footer>
+           <footer>
+                <p>&copy; DateTime.Now.Year Indunil Sanjeewa Amarasinghe. All rights reserved. </p>
+            </footer>
     </div>
     </body>
